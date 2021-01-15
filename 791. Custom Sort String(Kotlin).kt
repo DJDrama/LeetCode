@@ -1,3 +1,9 @@
+/**
+ * https://leetcode.com/problems/custom-sort-string/
+ **/
+
+// O(S.length + T.length) time complexity
+// O(T.length) space complexity
 fun customSortString(S: String, T: String): String {
     val arr = IntArray(26)
 
