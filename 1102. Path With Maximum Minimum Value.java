@@ -26,7 +26,7 @@ public class PathWithMaximumMinimumValue {
                 return polled[2];
             }
             for (int i = 0; i < dx.length; i++) {
-                if (x + dx[i] < 0 || x + dx[i] >= m || y + dy[i] < 0 || y + dy[i] >= n || visited[x + dx[i]][y + dy[i]]) {
+                if (x + dx[i] < 0 || x + dx[i] >= n || y + dy[i] < 0 || y + dy[i] >= m || visited[x + dx[i]][y + dy[i]]) {
                     continue;
                 }
                 visited[x + dx[i]][y + dy[i]] = true;
