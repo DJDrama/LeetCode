@@ -14,7 +14,6 @@
  */
 
 public class Solution {
-
     // O(max(l1, l2)) time complexity
     // O(max(l1, l2)+1) space complexity (since carry needs 1 more space)
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
